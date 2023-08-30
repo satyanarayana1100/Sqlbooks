@@ -20,3 +20,8 @@ price int(10)
  insert into books values(10,"Python","Satyanarayana","Computer science",1999,799);
  
  select * from books;
+select * from Books where title="PSOC";
+update Books set price=999 where price=119 ;
+select * from Books;
+delete from Books where title="PGTS";
+select * from Books;
